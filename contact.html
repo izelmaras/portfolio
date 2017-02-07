@@ -39,23 +39,24 @@
 
 <SCRIPT>
 function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "moreinfo") {
-window.open('pdf.pdf');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+// var testV = 1;
+// var pass1 = prompt('Please Enter Your Password',' ');
+// while (testV < 3) {
+// if (!pass1) 
+// history.go(-1);
+// //if (pass1.toLowerCase() == "moreinfo") {
+window.open('pdf/pdf.pdf');
 }
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
+//break;
+//} 
+// testV+=1;
+// var pass1 = 
+// prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+// }
+// if (pass1.toLowerCase()!="password" & testV ==3) 
+// history.go(-1);
+// return " ";
+// } 
 </SCRIPT>
 
 
@@ -66,6 +67,7 @@ return " ";
       <nav class="w-nav-menu menu-nav" role="navigation">
    <a class="w-nav-link nav-link2"href="http://www.pinterest.com/izelmaras/">Pinterest</a> 
     <a class="w-nav-link nav-link2"href="http://www.github.com/izelmaras/">Github</a>
+    <a class="w-nav-link nav-link2"href="https://www.openprocessing.org/user/28260">OpenProcessing</a>
    <a class="w-nav-link nav-link2"href="http://www.twitter.com/izelmaras/">Twitter</a>
    <a class="w-nav-link nav-link2"href="https://www.flickr.com/photos/69089964@N03/">Flickr</a>
    <a class="w-nav-link nav-link2"href="https://www.linkedin.com/in/izelmaras">Linkedin</a>
@@ -75,34 +77,52 @@ return " ";
 
   
       </nav>
-      <div class="w-nav-button w-clearfix menu-real"><img class="icon" src="images/Untitled-1-02_1.png" width="20">
+      <div class="w-nav-button w-clearfix menu-real">
+        <img class="icon" src="images/Untitled-1-02_1.png" width="20">
       </div><a class="w-nav-link header" href="./">Izel Maras</a>
     </div>
   </div>
   <div class="w-section page-text-about" id="new">
     <div class="w-container container centered">
       <div class="w-row _2-half-column different">
-        <div class="w-col w-col-6 left-column about"><img src="images/10897131_10152684683095784_6436276589352590865_n.jpg">
+        <div class="w-col w-col-6 left-column about">
+          <img src="/images/hey.jpeg">
         </div>
         <div class="w-col w-col-6 right-column">
           <p class="small-paragraph">Lorem ipsum dolor sit amet consectetur. <a href="#pricing" class="link small">More info ›</a>
           </p>
-          <p class="w-clearfix about">Izel Maras is a graphic designer and a programmer. She received a Bachelor of Arts in Visual Design with a Computer Science minor from Tufts University in Boston. &nbsp;She currently works at frog and tasked to create intuitive user interfaces and pixel perfect print designs. 
-            <br>
-            <br>
-            <br>
+          <p class="w-clearfix about">Izel Maras is a graphic designer and a programmer living in NY & currently a visual designer at frog. She received a Bachelor of Arts in Visual Arts and a minor in Computer Science from Tufts University in Boston. <br><br>
+    
+<!--             <input type="button" value="Resume and References" onClick="passWord()">
+ -->           
+            
             <h1>Exhibits, Publications and Writings</h1>
+            <br>
+            <a class="link small"href="pdf/pinkMonkeyIzelMaras.pdf">Publication, PinkMonkey Art Magazine</a>
+             <br>
+            <a class="link small"href="http://tuftsobserver.org/term-and-conditions-personal-privacy-in-the-age-of-big-data/">Publication, Tufts Observer</a>
+              <br>
+            <!-- <ul><a class="link small"href="observerIzelMaras.pdf">Photos in Tufts Observer</a></ul> -->
+            <a class="link small"href="pdf/porterSpaceIzelMaras.pdf">Exhibit, Porterspace</a>
+              <br>
+           <a class="link small"href="pdf/theoryKitchenIzelMaras.pdf">Exhibit and Collaboration, Theory Kitchen</a>
+            
+              <br><a class="link small"href="pdf/csoIzelMaras.pdf">Collaboration, Curious Sound Objects Vol 2 </a>
+             <br> <a class="link small"href="https://munchies.vice.com/en/articles/this-pop-up-is-part-arcade-and-part-restaurant">Collaboration, Mouth of Arcade</a>
+             <br> <a class="link small"href="pdf/aphorismsIzelMaras.pdf">Essay, Aphorisms on Digitalism</a>
+             <br> <a class="link small"href="pdf/ikiIzelMaras.pdf">Paper, On Iki & Aesthetic of Japanese Beauty</a>
+             <br> <a class="link small"href="pdf/perceivableInterfaceIzelMaras.pdf">Paper, Lacan's Mirror Stage & Perceivable Interface</a>
+             <br> <a class="link small"href="pdf/timelessnessIzelMaras.pdf">Essay, Timelessness in Design</a>
+             <br> <a class="link small"href="http://tedprints.tedankara.k12.tr/170/">Essay, The Beauty of Dorian Gray and that of Frankenstein's Monster</a><
+ <br>
+<!--             <input type="button" value="Resume and References" onClick="passWord()">
 
-            <ul>PinkMonkey</ul>
-            <ul>Observer</ul>
-            <ul>TBD</ul>
-            <ul>TBD</ul>
-            <ul>Theory Kitchen</ul>
-            <ul>Iki, Aesthetic of Japanese Beauty </ul>
-            <ul>Perceivable Interface, Mirror Stage and dancer's bodies</ul>
-            <ul>Defining beuty in Mary Shelley's “Frankenstein” and Oscar Wilde’s “The Picture of Dorian Gray</ul>
-             <br>    <input type="button" value="Resume and References" onClick="passWord()">
+ -->              <br>
+            <br>         <br>
 
+               <input type="button" onClick="passWord()"value="Resume">
+
+            <br>
 
 
           </p>
