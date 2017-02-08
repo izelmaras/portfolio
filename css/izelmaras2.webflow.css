@@ -9,6 +9,7 @@ body {
   font-size: 14px;
   line-height: 20px;
 }
+ 
 h1 {
   display: inline-block;
   margin-top: 0px;
@@ -598,7 +599,7 @@ p {
 .sa {
   font-size: 13px;
 }
-.perceivable {
+.other {
   margin: 20px 20px 139px;
   color: black;
   font-size: 14px;
@@ -646,7 +647,7 @@ p {
   background-repeat: repeat;
   background-attachment: scroll;
 }
-.perceivableinterface {
+.other {
   display: block;
   width: 100%;
   height: 350px;
@@ -727,7 +728,7 @@ p {
   background-image: url('../images/tanzania11.jpg');
   background-position: 0% 0%;
 }
-.portfolio-item.ruben {
+.portfolio-item.other {
   background-image: url('../images/tanzania11.jpg');
   background-position: 1px 50%;
   background-size: contain;
@@ -989,7 +990,7 @@ p {
   height: 300px;
   background-image: url('../images/nunezMini.jpg');
 }
-.similar-projects-link-perceivableinterface {
+.similar-projects-link-other {
   width: 100%;
   height: 300px;
   background-image: url('../images/tumblr_n8atfwaYOs1qzgzyuo1_500.gif');
@@ -1038,7 +1039,7 @@ p {
   background-position: 25% 0%;
   background-size: cover;
 }
-.portfolio-item-perceivable-interface {
+.portfolio-item-other {
   width: 100%;
   height: 350px;
   float: left;
@@ -1099,7 +1100,7 @@ p {
 }
 
 
-.portfolio-item-ruben {
+.portfolio-item-other {
   width: 100%;
   height: 350px;
   float: left;
@@ -1198,7 +1199,7 @@ p {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.page-text-perceivableinterface {
+.page-text-other {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -1526,7 +1527,7 @@ html.w-mod-js *[data-ix="lower-opacity-non-print"] {
     background-repeat: repeat;
     background-attachment: scroll;
   }
-  .perceivableinterface {
+  .other {
     background-image: none;
     background-position: 0% 0%;
     background-size: auto;
@@ -1847,7 +1848,7 @@ html.w-mod-js *[data-ix="lower-opacity-non-print"] {
     background-repeat: repeat;
     background-attachment: scroll;
   }
-  .perceivableinterface {
+  .other {
     margin-bottom: -84px;
     padding-bottom: 41px;
     background-image: none;
@@ -1948,7 +1949,7 @@ html.w-mod-js *[data-ix="lower-opacity-non-print"] {
   .similar-projects-link-nunez {
     height: 150px;
   }
-  .similar-projects-link-perceivableinterface {
+  .similar-projects-link-other{
     height: 150px;
   }
   .similar-projects-link-worldbank {
@@ -1975,11 +1976,11 @@ html.w-mod-js *[data-ix="lower-opacity-non-print"] {
     background-position: 50% -118px;
     background-repeat: no-repeat;
   }
-  .portfolio-item-perceivable-interface {
+  .portfolio-item-other {
     height: 300px;
   }
 
-  .portfolio-item-ruben {
+  .portfolio-item-other {
     height: 300px;
     background-position: -10 px;
     background-repeat: no-repeat;
@@ -2257,7 +2258,7 @@ html.w-mod-js *[data-ix="lower-opacity-non-print"] {
     width: 100%;
     height: 200px;
   }
-  .perceivableinterface {
+  .other {
     margin-bottom: -32px;
     padding-bottom: 0px;
   }
@@ -2401,7 +2402,7 @@ html.w-mod-js *[data-ix="lower-opacity-non-print"] {
   .similar-projects-link-nunez {
     height: 100px;
   }
-  .similar-projects-link-perceivableinterface {
+  .similar-projects-link-other {
     height: 100px;
   }
   .similar-projects-link-worldbank {
@@ -2426,7 +2427,7 @@ html.w-mod-js *[data-ix="lower-opacity-non-print"] {
     height: 200px;
     background-position: 50% -29px;
   }
-  .portfolio-item-perceivable-interface {
+  .portfolio-item-other {
     height: 200px;
   }
   .portfolio-item-worldbank {
@@ -2463,7 +2464,7 @@ html.w-mod-js *[data-ix="lower-opacity-non-print"] {
   .portfolio-item-bnym, .portfolio-item-verizon , .portfolio-item-frog, .portfolio-item-samsung   {
     height: 200px;
   }
-  .portfolio-item-ruben {
+  .portfolio-item-other {
     height: 200px;
   }
   .portfolio-item-illustrations {
